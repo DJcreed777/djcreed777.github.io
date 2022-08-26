@@ -1,6 +1,10 @@
 h1{
-    color:purple;
+    color:saddlebrown;
     text-align: center;
+}
+
+body {
+    background-color: darkgoldenrod;
 }
 
 h2{
@@ -8,14 +12,16 @@ h2{
 }
 
 p{
-    text-align: center;
+    text-align: center; 
+    border-style: solid;
+    border-color:bisque;
 }
 
 ul li{
     color:crimson;
 }
 
-img{
+img[src="Elden_Ring_Title_Photo_1.jpg"]{
     display: block;
     margin-left: auto;
     margin-right: auto;
