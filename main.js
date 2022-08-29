@@ -3,7 +3,7 @@ var nameBtn = document.getElementById("nameSetButton").onclick = nameSetApplicat
 
 function nameSetApplication()
 {
-    let nameSet = document.getElementById("Name Set");
+    var nameSet = document.getElementById("Name Input").value;
     var startHeading;
     var endHeading;
 
@@ -100,5 +100,7 @@ function displayClass10()
 	console.log(Samurai);
 }
 
+var startHeading = document.getElementById("Start Heading");
+startHeading.style.color = "tan";
 var endHeading = document.getElementById("End Heading");
 endHeading.style.color = "tan"
