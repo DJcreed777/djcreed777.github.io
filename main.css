@@ -1,0 +1,116 @@
+/* Imported Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Balinese:wght@400;600&display=swap');
+
+/* Default Structure =================== */
+body, footer{
+	max-width: 70rem;
+	margin: 0 auto;
+	padding: 0rem;
+}
+
+/* Header */
+header{
+    text-align: center;
+    background-color: cornflowerblue;
+}
+
+header > h1, header > nav{
+    display: inline;
+    color: #fff;
+    word-spacing: 5px;
+}
+
+header > section > h2{
+    font-family: 'Noto Sans Balinese', sans-serif;
+    color: #fff;
+    text-align: center;
+}
+
+header > section > nav{
+    font-family: 'Noto Sans Balinese', sans-serif;
+    color: #fff;
+    text-align: center;
+}
+
+/* Main */
+main > article{
+    max-width: 80rem;
+	margin: 0 auto;
+	padding: 3rem;
+}
+
+#textBox{
+    text-align: center;
+    width: 17rem;
+	border: 1px solid #222222;
+	float: left;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+#textBox:hover{
+    background-color: cornflowerblue;
+    color: #fff;
+}
+
+#readMoreText{
+    color: cornflowerblue;
+    text-decoration-line: underline;
+}
+
+main > section{
+    border-top: black;
+}
+
+/* Footer */
+footer > section, footer > p{
+    color: #fff;
+}
+
+#footerSection1{
+    background-color: cornflowerblue;
+    height: 18rem;
+}
+
+#footerSection1 > h4{
+    display: inline;
+}
+
+footer > section > section{
+    text-align: left;
+    background-color: cornflowerblue;
+    border: cornflowerblue;
+    width: 12rem;
+    height: 15rem;
+    float: left;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+#socialList li{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: inline;
+}
+
+#ourServicesList, #quickLinksList, #contactList{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#ourServicesList > li a:hover, #quickLinksList > li a:hover{
+    text-decoration-line: underline;
+}
+
+#footerSection2{
+    background-color: midnightblue;
+    border: midnightblue;
+    height: 2rem;
+}
+
+#footerSection2 > p{
+    display: inline;
+    margin: 9rem;
+}
