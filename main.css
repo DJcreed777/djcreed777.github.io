@@ -1,7 +1,7 @@
 /* Imported Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Balinese:wght@400;600&display=swap');
 
-/* Default Structure =================== */
+/* Default Structure */
 body, footer{
 	max-width: 70rem;
 	margin: 0 auto;
@@ -39,8 +39,9 @@ main > article{
 	padding: 3rem;
 }
 
+/* Text Box Border Properties */
 #textBox{
-    text-align: center;
+    text-align: left;
     width: 17rem;
 	border: 1px solid #222222;
 	float: left;
@@ -60,6 +61,21 @@ main > article{
 
 main > section{
     border-top: black;
+}
+
+/* Input Properties */
+#entries1, #entries2, #entries3{
+    display: inline;
+    width: 35rem;
+	border: 1px solid #fff;
+	float: left;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+input{
+    width: 15rem;
+    padding: 1rem;
 }
 
 /* Footer */
